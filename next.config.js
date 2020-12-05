@@ -3,7 +3,7 @@ module.exports = {
 		return [
 			{
 				source: '/team',
-				destination: '/about',
+				destination: 'http://www.websolutions.kitchen/bimbo2020/react/home/',
 			},
 			{
 				source: '/about',
