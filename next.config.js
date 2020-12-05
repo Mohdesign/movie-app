@@ -3,7 +3,7 @@ module.exports = {
 		return [
 			{
 				source: '/team',
-				destination: 'http://www.websolutions.kitchen/bimbo2020/react/home/',
+				destination: 'https://movie-app-lake-alpha.vercel.app',
 			},
 			{
 				source: '/about',
