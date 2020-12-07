@@ -1,7 +1,7 @@
 import React from 'react'
 
 class MovieList extends React.Component {
-
+ 
   shorten = (text) => {
     if( text && text.length > 200) {
       return text.substr(0, 50) + '....'
@@ -13,6 +13,7 @@ class MovieList extends React.Component {
   }
 
   renderMovies () {
+
     // call movies props to access MOVIE_DATA
     const { movies } = this.props
     // create map loop thrugh the movies list
@@ -37,8 +38,11 @@ class MovieList extends React.Component {
 
     )
   }
+ 
+ 
 
   render() {
+    
 
     {/* const { movies } = this.props */}
     return (
